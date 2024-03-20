@@ -1,0 +1,17 @@
+<div class="">
+    <ul class="flex flex-col">
+        {{#each products}}
+        <li class="grid grid-cols-9 overflow-x-hidden items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+            <p class="flex">ID: {{id}}</p>
+            <p class="flex">Title: {{title}}</p>
+            <p class="flex">Description: {{description}}</p>
+            <p class="flex">Code: {{code}}</p>
+            <p class="flex">Price: {{price}}</p>
+            <p class="flex">Stock: {{stock}}</p>
+            <p class="flex">Category: {{category}}</p>
+            <p class="flex">Status: {{status}}</p>
+            <p class="flex">Thumbnail: {{thumbnail}}</p>
+        </li>
+        {{/each}}
+    </ul>
+</div>
